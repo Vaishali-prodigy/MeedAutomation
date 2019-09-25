@@ -20,6 +20,7 @@ Scenario Outline: Verify Meed customer is able to successfully able to make inte
    And user selects option "Once"  from the dropdown "Frequency"
    And user waits for "2" seconds
    And user clicks on button "NEXT"
+   And user waits for "4" seconds
    And user clicks on button "CONFIRM"
    And user waits for "2" seconds
    And user validates "Amount" field with expected value as "$<Amount>"

@@ -13,7 +13,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-
+  
   <dependencies>
     <dependency>
       <groupId>TestAutomationFramework</groupId>
@@ -91,7 +91,6 @@
 	</dependency>
 
 </dependencies>
-  
   	<build>
 		<pluginManagement>
 			<plugins>
